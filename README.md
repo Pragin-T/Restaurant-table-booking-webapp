@@ -44,6 +44,10 @@ A responsive, component-driven web application built using TypeScript and modern
 - **Component-based architecture**
 - **Custom utilities** for logic abstraction
 
+ ## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
 ## 🧪 Features
 
 - 🧾 Table reservation system (Booking Form)
