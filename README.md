@@ -4,28 +4,24 @@ A responsive, component-driven web application built using TypeScript and modern
 
 ## 📁 Project Folder Structure
 
-LITTLE_LEMON_WEBAPP-MAIN/
-│── src/
-│ ├── assets/ # Static assets like images and icons
-│ ├── components/ # Reusable UI components
-│ │ ├── BookingForm/
-│ │ ├── Button/
-│ │ ├── CustomersSay/
-│ │ ├── Footer/
-│ │ ├── Header/
-│ │ ├── Nav/
-│ ├── pages/ # Page components (Home, Booking, Menu)
-│ ├── styles/ # Centralized styling files (CSS/SCSS)
-│ ├── utils/ # Utility functions and business logic
-│── main.tsx # Application entry point
-│── routes.tsx # Route definitions for navigation
-│── index.html # Base HTML file
-│── package.json # Project metadata and dependencies
-│── tsconfig.json # TypeScript configuration
-
-markdown
-Copy
-Edit
+- `LITTLE_LEMON_WEBAPP-MAIN/`
+  - `src/`
+    - `assets/`          # Static assets like images and icons
+    - `components/`      # Reusable UI components
+      - `BookingForm/`
+      - `Button/`
+      - `CustomersSay/`
+      - `Footer/`
+      - `Header/`
+      - `Nav/`
+    - `pages/`           # Page components (Home, Booking, Menu)
+    - `styles/`          # Centralized styling files (CSS/SCSS)
+    - `utils/`           # Utility functions and business logic
+  - `main.tsx`           # Application entry point
+  - `routes.tsx`         # Route definitions for navigation
+  - `index.html`         # Base HTML file
+  - `package.json`       # Project metadata and dependencies
+  - `tsconfig.json`      # TypeScript configuration
 
 ## 🚀 Tech Stack
 
