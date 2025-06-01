@@ -2,6 +2,19 @@
 
 A responsive, component-driven web application built using TypeScript and modern front-end tools. This app showcases features like table reservations, customer testimonials, dynamic routing, and reusable UI elements.
 
+## ✨ Features
+- Table reservation system
+- Responsive navigation and footer
+- Customer testimonials carousel
+- Modular UI components
+- Mobile-first layout
+
+## 🧪 Tech Stack
+- React (with TypeScript)
+- React Router
+- CSS Modules / SCSS
+- Vite
+
 ## 📁 Project Folder Structure
 
 - `LITTLE_LEMON_WEBAPP-MAIN/`
