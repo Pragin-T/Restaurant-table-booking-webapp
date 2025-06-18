@@ -1,44 +1,101 @@
-# 🍽️ Restaurant Table Booking Web App
+ 🍽️ Restaurant-Table-Booking-WebApp
 
-A modern, responsive restaurant table booking web application built using **React**, **Vite**, **Styled Components**, and **React Router**. The app allows users to reserve tables and view booking confirmations in a seamless, elegant interface.
+A responsive and modern table reservation web application built with **React.js**, **TypeScript**, **Styled-Components**, and **Vite**. This app allows users to book tables, view special dishes, confirm reservations, and browse through customer testimonials — all in a seamless single-page experience.
 
-> ✅ **Live Demo**: [https://Pragin-T.github.io/Restaurant-table-booking-webapp/](https://Pragin-T.github.io/Restaurant-table-booking-webapp/)
-
----
-
-## 📌 Features
-
-- 🔐 Table booking form with validation
-- 📱 Mobile-first responsive layout
-- 🎨 Theming with Styled Components
-- 🧭 Smooth navigation using React Router
-- ⚡ Blazing fast performance with Vite
-- 📦 GitHub Pages deployment
+🔗 **Live Website**: [https://pragin-t.github.io/Restaurant-table-booking-webapp/](https://pragin-t.github.io/Restaurant-table-booking-webapp/)
 
 ---
 
-## 🖼️ Preview
+## 🚀 Features
 
-> *(Add a screenshot if available)*
-
-![Preview](./src/assets/restaurantfood.jpg)
+- 📅 Table booking form with date, time, guest count, and occasion
+- ✅ Booking confirmation page
+- 🍝 Display of special dishes
+- 👨‍🍳 Chef profile and restaurant section
+- 💬 Real user testimonials
+- 🧭 Fully responsive SPA using `react-router-dom`
 
 ---
 
-## 🧾 Project Structure
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🙋‍♂️ Author
+
+**T. Pragin**  
+GitHub: [@Pragin-T](https://github.com/Pragin-T)
+
+---
+
+## 📸 Screenshots
+
+> *(Add actual screenshots in `/public` or `/assets` and link here)*
+
+**Home Page View**  
+![Restaurant Home](public/home-demo.png)
+
+**Booking Form**  
+![Booking Form](public/booking-form.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React.js with Vite
+- 🔠 TypeScript
+- 🎨 Styled-Components
+- 📍 React Router DOM
+- 💡 Functional Component Architecture
+
+---
+
+## 📁 Project Folder Structure
 
 Restaurant-table-booking-webapp/
-├── public/ # Static assets
+├── public/
+│ ├── index.html
+│ └── favicon.png
 ├── src/
-│ ├── assets/ # Images and icons
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Home, Booking, and Confirmation pages
-│ ├── styles/ # Global styles and themes
-│ ├── routes.tsx # App routing logic
-│ └── main.tsx # Entry point
-├── vite.config.ts # Vite configuration
-├── package.json # Project metadata and scripts
-└── README.md # Project documentation
+│ ├── assets/
+│ │ └── ...all images & icons
+│ ├── components/
+│ │ ├── BookingForm/
+│ │ ├── Button/
+│ │ ├── CallToAction/
+│ │ ├── Chicago/
+│ │ ├── ConfirmedBooking/
+│ │ ├── CustomersSay/
+│ │ ├── CustomersSayCard/
+│ │ ├── Footer/
+│ │ ├── Header/
+│ │ ├── MobileNav/
+│ │ ├── Nav/
+│ │ ├── SpecialFoodCard/
+│ │ └── Specials/
+│ ├── pages/
+│ │ ├── Home/
+│ │ ├── Bookingpage/
+│ │ └── ConfirmationPage/
+│ ├── styles/
+│ │ ├── global.ts
+│ │ ├── theme.ts
+│ │ └── styled.d.ts
+│ ├── utils/
+│ │ ├── temp.ts
+│ │ └── tests-ts.tsx
+│ ├── routes.tsx
+│ ├── main.tsx
+│ └── vite-env.d.ts
+├── .gitignore
+├── index.html
+├── package.json
+├── tsconfig.json
+├── tsconfig.node.json
+├── vite.config.ts
+└── README.md
 
 yaml
 Copy
@@ -46,63 +103,54 @@ Edit
 
 ---
 
-## ⚙️ Installation & Usage
+## 🧪 Local Setup
 
-### 📥 1. Clone the Repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/Pragin-T/Restaurant-table-booking-webapp.git
 cd Restaurant-table-booking-webapp
-📦 2. Install Dependencies
+Install the dependencies:
+
 bash
 Copy
 Edit
 npm install
-💻 3. Run the App in Dev Mode
+Start the app:
+
 bash
 Copy
 Edit
 npm run dev
-Navigate to http://localhost:5173 in your browser.
+App will run at: http://localhost:5173
 
-📦 4. Build the App
-bash
-Copy
-Edit
-npm run build
-The built files will be in the dist/ folder.
-
-🚀 5. Deploy to GitHub Pages
-Make sure your vite.config.ts includes the correct base:
+🌐 Deployment via GitHub Pages
+Make sure the vite.config.ts file has the correct base path:
 
 ts
 Copy
 Edit
-base: "https://Pragin-T.github.io/Restaurant-table-booking-webapp/",
-Then run:
+// vite.config.ts
+export default defineConfig({
+  plugins: [react()],
+  base: "https://Pragin-T.github.io/Restaurant-table-booking-webapp/", // ✅ Important
+});
+Add deploy scripts to your package.json:
+
+json
+Copy
+Edit
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "gh-pages -d dist"
+}
+Now deploy:
 
 bash
 Copy
 Edit
+npm install gh-pages --save-dev
+npm run build
 npm run deploy
-🧪 Tech Stack
-React – Frontend library
-
-Vite – Build tool
-
-Styled Components – Styling
-
-React Router – Routing
-
-gh-pages – Deployment
-
-📄 License
-This project is open source and available under the MIT License.
-
-🙌 Acknowledgements
-This project was developed as part of the Meta Front-End Developer Capstone.
-
-💬 Feedback
-Have suggestions or bugs?
-Feel free to open an issue or submit a PR.
-
