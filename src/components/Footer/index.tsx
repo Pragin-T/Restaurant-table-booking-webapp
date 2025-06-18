@@ -46,8 +46,8 @@ const Footer: FC<HTMLAttributes<HTMLElement>> = (props): JSX.Element => {
                 331 E Chennai<br />
                 Annai Salai Chennai,
                 <br />
-                Illinois 60602 <br />
-                USA
+                <br />
+                India
               </address>
             </li>
             <li>
@@ -105,7 +105,7 @@ const Footer: FC<HTMLAttributes<HTMLElement>> = (props): JSX.Element => {
       </Content>
       <Copyright>
         <span>Developed by Pragin-T</span>
-        <p>littlelemon Greets you!</p>
+        <p>little lemon Greets you!</p>
       </Copyright>
     </Container>
   );
