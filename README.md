@@ -83,6 +83,11 @@ Restaurant-table-booking-webapp/
    ```bash
    git clone https://github.com/Pragin-T/Restaurant-table-booking-webapp.git
    cd Restaurant-table-booking-webapp
+1. **Install Modules**:
+    ```bash
+   npm install
+   npm run dev
+   
 
 📄 License
 This project is licensed under the MIT License.
