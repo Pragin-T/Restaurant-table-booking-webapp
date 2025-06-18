@@ -76,3 +76,29 @@ Restaurant-table-booking-webapp/
 ├── vite.config.ts
 └── README.md
 ```
+🧪 Local Setup
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/Pragin-T/Restaurant-table-booking-webapp.git
+cd Restaurant-table-booking-webapp
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Run locally:
+
+bash
+Copy
+Edit
+npm run dev
+📄 License
+This project is licensed under the MIT License.
+
+🙋‍♂️ Author
+Made with ❤️ by T. Pragin
+GitHub
