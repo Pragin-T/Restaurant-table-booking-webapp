@@ -18,6 +18,14 @@ A modern and responsive restaurant table booking website built using **React.js*
 
 ---
 
+## 📸 Screenshots
+
+### Weather App Demo
+<img src="./public/Web-app-Screenshot.gif" alt="Weather App Demo" width="600" />
+
+### Mobile App Demo
+<img src="./public/Mobile-app_screen.gif" alt="Mobile App Demo" width="600" />
+
 ## 🛠️ Tech Stack
 
 - **React.js** (with Vite)
