@@ -87,10 +87,11 @@ Restaurant-table-booking-webapp/
     ```bash
    npm install
    npm run dev
-   
 
-📄 License
-This project is licensed under the MIT License.
+   
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
 
 🙋‍♂️ Author
 Made with ❤️ by T. Pragin
