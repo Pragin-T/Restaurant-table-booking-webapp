@@ -97,4 +97,4 @@ This project is licensed under the [MIT License](./LICENSE).
 
 Made with ❤️ by **T. Pragin**
 
-[GitHub](https://github.com/YourGitHubUsername)
+[GitHub](https://github.com/Pragin-T)
