@@ -23,8 +23,8 @@ A modern and responsive restaurant table booking website built using **React.js*
 ### Homepage
 <img src="./src/assets/Home.png" alt="Homepage" width="600" />
 
-### Mobile App Demo
-<img src="./public/Mobile-app_screen.gif" alt="Mobile App Demo" width="600" />
+### Reservation page
+<img src="./src/assets/Res.png" alt="Reservation" width="600" />
 
 ## 🛠️ Tech Stack
 
