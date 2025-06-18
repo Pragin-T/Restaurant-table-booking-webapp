@@ -1,3 +1,33 @@
+# 🍽️ Restaurant Table Booking Web App
+
+A modern and responsive restaurant table booking website built using **React.js**, **TypeScript**, and **Styled Components**. This project simulates a real restaurant booking system with interactive UI, routing, and state management.
+
+🔗 **Live Website**: [https://Pragin-T.github.io/Restaurant-table-booking-webapp/](https://Pragin-T.github.io/Restaurant-table-booking-webapp/)
+
+---
+
+## 🚀 Features
+
+- 🏠 Home page with dynamic hero section and CTA
+- 🪑 Table booking with a reservation form and time slots
+- ✅ Confirmation page after booking
+- 👥 Customer testimonials section
+- 🍝 Special dishes section
+- 🌆 Responsive design for all devices
+- 🧭 Smooth navigation with routing
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** (with Vite)
+- **TypeScript**
+- **Styled Components**
+- **React Router**
+- **HTML5 & CSS3**
+
+---
+
 ### 📁 Project Folder Structure
 
 ```
