@@ -93,6 +93,8 @@ Restaurant-table-booking-webapp/
 
 This project is licensed under the [MIT License](./LICENSE).
 
-##🙋‍♂️ Author
-Made with ❤️ by T. Pragin
-GitHub
+## 🙋‍♂️ Author
+
+Made with ❤️ by **T. Pragin**
+
+[GitHub](https://github.com/YourGitHubUsername)
